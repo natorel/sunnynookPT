@@ -13,50 +13,49 @@
 
   <!-- NAV -->
   <nav class="nav">
-    <a href="index.html" class="nav-logo"><img src="logo.png" alt="Sunny Nook Play Therapy" class="nav-logo-img"></a>
+    <a href="#home" class="nav-logo">Sunny Nook<span>Play Therapy</span></a>
     <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="play-therapy.html">Play Therapy</a></li>
-      <li><a href="fees.html">Fees & FAQ</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#play-therapy">Play Therapy</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#fees">Fees & FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- HERO -->
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="hero-inner">
       <p class="hero-quote">"The curious paradox is that when I accept myself just as I am, then I can change."</p>
       <p class="hero-quote-attr">— Carl Rogers</p>
       <h1 class="hero-headline">A safe space for your child to<br><em>play, heal, and grow.</em></h1>
       <p class="hero-sub">Child-Centred Play Therapy in Pakenham for children aged 3–10.</p>
       <div class="hero-cta">
-        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
-        <a href="play-therapy.html" class="btn btn-secondary">Learn More</a>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="#play-therapy" class="btn btn-secondary">Learn More</a>
       </div>
     </div>
-    <div class="hero-image-placeholder">
-      <img src="playroom.jpg" alt="Sunny Nook playroom" class="hero-img">
+    <div class="hero-image-wrap">
+      <img src="playroom.png" alt="The Sunny Nook playroom" class="hero-img">
     </div>
   </section>
 
   <!-- WHAT IS CCPT -->
-  <section class="section section-light">
+  <section class="section section-light" id="play-therapy">
     <div class="container two-col">
       <div class="col-text">
         <span class="section-label">What is Play Therapy?</span>
         <h2>Play is a child's natural language.<br>Toys are their words.</h2>
         <p>Child-Centred Play Therapy (CCPT) is a specialised, evidence-based mental health intervention for children aged 3 to 12. Unlike traditional approaches which may ask children to articulate complex emotions they may not yet have the vocabulary for, CCPT meets them where they are.</p>
-        <p>In the playroom, I provide a safe, non-judgmental environment where your child leads the way. Guided by the philosophies of Virginia Axline and Carl Rogers, I rely on the child's innate "growth force" — their natural drive to heal and self-actualise.</p>
-        <a href="play-therapy.html" class="btn btn-outline">Read More About CCPT →</a>
+        <p>In the playroom, I provide a safe, non-judgmental environment where your child leads the way. Guided by the philosophies of Virginia Axline and Carl Rogers, I rely on the child's innate "growth force" — their natural drive to heal and self-actualise. By playing out their experiences, children process their world, develop problem-solving skills, and gain a sense of mastery over their lives.</p>
+        <a href="https://evidencebasedchildtherapy.com" target="_blank" class="btn btn-outline">View Evidence-Based Research →</a>
       </div>
       <div class="col-visual">
         <div class="quote-card">
           <p>"The child is the one who knows what is bothering him, and it is the child who must discover the way to handle his problems."</p>
           <span>— Virginia Axline</span>
         </div>
-        <div class="blob-shape"></div>
       </div>
     </div>
   </section>
@@ -96,28 +95,131 @@
     </div>
   </section>
 
-  <!-- ABOUT SNIPPET -->
-  <section class="section section-light">
+  <!-- ABOUT -->
+  <section class="section section-light" id="about">
     <div class="container two-col reverse">
       <div class="col-visual">
         <img src="mythri.jpg" alt="Mythri Kariuki" class="profile-img">
       </div>
       <div class="col-text">
         <span class="section-label">About Mythri</span>
-        <h2>Every child has the ability to heal and thrive.</h2>
-        <p>As a former primary school teacher and a mum to a child with severe anxiety, I've spent years watching children navigate the world from both a professional and a deeply personal perspective.</p>
-        <p>My personal ethos: <em>Healing happens when a child feels safe enough to be exactly who they are.</em></p>
-        <a href="about.html" class="btn btn-outline">Meet Mythri →</a>
+        <h2>Hi, I'm Mythri.</h2>
+        <p>I believe every child has the ability to heal and thrive — they just need the right space to do it.</p>
+        <p>As a former primary school teacher and a mum to a child with severe anxiety, I've spent years watching children navigate the world from both a professional and a deeply personal perspective. I know firsthand that when children struggle with "big feelings" or difficult behaviours, they need a language to express what's happening inside.</p>
+        <p>Returning to my psychology studies later in life was driven by my desire to support children's emotional needs as they navigate the systems that serve them. This journey led me to Child-Centred Play Therapy — a modality that helps young children not only heal from their challenges but truly self-actualise.</p>
+        <div class="ethos-block">
+          <p><em>"Healing happens when a child feels safe enough to be exactly who they are."</em></p>
+        </div>
+        <h3 style="font-family:var(--font-display);font-size:1.2rem;margin-bottom:0.75rem;">Credentials</h3>
+        <ul class="cred-list">
+          <li>BSc</li>
+          <li>GradDipEd (Primary)</li>
+          <li>BPsych (Honours)</li>
+          <li>Clinical CCPT Training</li>
+          <li>PTPA Associate Therapist</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT STRIP -->
-  <section class="section section-green">
-    <div class="container center">
-      <h2>Ready to take the first step?</h2>
-      <p>Reach out to discuss whether play therapy might be right for your child.</p>
-      <a href="contact.html" class="btn btn-white">Get in Touch</a>
+  <!-- FEES & FAQ -->
+  <section class="section section-warm" id="fees">
+    <div class="container">
+      <span class="section-label">Fees & FAQ</span>
+      <h2>Practical information</h2>
+      <div class="two-col fees-layout">
+        <div>
+          <h3 class="subheading">Opening Hours (2026)</h3>
+          <div class="hours-table">
+            <div class="hours-row">
+              <span class="day">Monday</span>
+              <span class="time">4:00pm – 6:00pm</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Saturday</span>
+              <span class="time">8:30am – 11:30am</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Sunday</span>
+              <span class="time">8:30am – 11:30am</span>
+            </div>
+          </div>
+          <div class="fees-box">
+            <p>Please <a href="#contact">get in touch</a> for current fee information. I'm happy to discuss options and answer any questions you have.</p>
+          </div>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)">How old does my child need to be? <span>+</span></button>
+            <div class="faq-a"><p>CCPT is most effective for children aged 3 to 10, though it can be adapted up to age 12. Feel free to reach out if you're unsure.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)">How long does a session last? <span>+</span></button>
+            <div class="faq-a"><p>Sessions are typically 50 minutes, including a brief check-in with parents/carers.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)">How many sessions will my child need? <span>+</span></button>
+            <div class="faq-a"><p>Every child is different. Research suggests a minimum of 10–15 consistent sessions is most effective. We'll review progress together as we go.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)">Do parents stay during sessions? <span>+</span></button>
+            <div class="faq-a"><p>Children attend the playroom on their own — this gives them the freedom to lead and express themselves. I'll keep you informed every step of the way.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)">Is play therapy covered by Medicare or private health? <span>+</span></button>
+            <div class="faq-a"><p>Please get in touch to discuss rebate options, as these depend on your circumstances and referral pathway.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-light" id="contact">
+    <div class="container two-col">
+      <div class="col-text">
+        <span class="section-label">Contact</span>
+        <h2>Let's talk.</h2>
+        <p>I'd love to hear from you. Reach out and we can find a time to chat.</p>
+        <p class="disclaimer-note">This form is for general inquiries only and is not a secure clinical platform. Please do not share highly sensitive clinical details here.</p>
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Jane Smith">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="jane@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="04xx xxx xxx">
+          </div>
+          <div class="form-group">
+            <label for="age">Child's Age (optional)</label>
+            <input type="text" id="age" name="child_age" placeholder="e.g. 6 years old">
+          </div>
+          <div class="form-group">
+            <label for="message">How can I help? *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell me a little about what's brought you here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+      <div class="col-visual">
+        <div class="contact-info-box">
+          <h3>Contact Details</h3>
+          <p>📍 Lakeside, Pakenham VIC 3810</p>
+          <p>✉️ <a href="mailto:Sunnynookpt@gmail.com">Sunnynookpt@gmail.com</a></p>
+          <p>📷 <a href="https://www.instagram.com/sunnynookpt" target="_blank">@sunnynookpt</a></p>
+        </div>
+        <div class="contact-info-box" style="margin-top:1.5rem;">
+          <h3>Current Clients</h3>
+          <p>Please use the Halaxy booking system to manage your appointments.</p>
+          <a href="#" class="btn btn-outline">Book via Halaxy →</a>
+          <p class="disclaimer-note" style="margin-top:1rem;">*Your data is stored in a secure, encrypted system that complies with Australian data residency requirements.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -131,11 +233,11 @@
         <a href="https://www.instagram.com/sunnynookpt" target="_blank" class="insta-link">📷 Instagram</a>
       </div>
       <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="play-therapy.html">Play Therapy</a>
-        <a href="fees.html">Fees & FAQ</a>
-        <a href="contact.html">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#play-therapy">Play Therapy</a>
+        <a href="#about">About</a>
+        <a href="#fees">Fees & FAQ</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
     <div class="footer-bottom">
