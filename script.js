@@ -9,11 +9,9 @@ function toggleFAQ(btn) {
   const answer = btn.nextElementSibling;
   const isOpen = answer.classList.contains('visible');
 
-  // Close all
   document.querySelectorAll('.faq-a').forEach(a => a.classList.remove('visible'));
   document.querySelectorAll('.faq-q').forEach(b => b.classList.remove('open'));
 
-  // Open clicked (unless it was already open)
   if (!isOpen) {
     answer.classList.add('visible');
     btn.classList.add('open');
